@@ -1,30 +1,10 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "ted",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "ted",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
-  },
-  "keywords": [
-    "react",
-    "reactjs",
-    "boilerplate",
-    "hot",
-    "reload",
-    "hmr",
-    "live",
-    "edit",
-    "webpack"
-  ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
   },
   "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
@@ -42,8 +22,12 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
+    "counterpart": "^0.17.6",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-hot-loader": "^3.0.0-beta.6"
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-i18next": "^1.10.1",
+    "react-interpolate-component": "^0.10.0",
+    "react-translate-component": "^0.13.1"
   }
 }
